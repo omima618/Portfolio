@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+h1 {
+  font-size: 60px !important;
+}
+
+h2 {
+  font-size: 50px !important;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 50px !important;
+  }
+
+  h2 {
+    font-size: 45px !important;
+  }
+}
